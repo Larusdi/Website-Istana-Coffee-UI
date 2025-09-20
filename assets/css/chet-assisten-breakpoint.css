@@ -1,0 +1,19 @@
+/* ==========================================================================
+   CHAT ASSISTANT – BREAKPOINTS
+   ========================================================================== */
+
+@media (max-width: 820px){
+  .hide-sm{ display:none; }
+  .chat__wrap{ grid-template-rows: minmax(360px, 58vh) auto auto auto; }
+  .chat__scroll{ padding: 16px 14px; }
+  .chips{ padding: 10px 12px; }
+  .composer{ padding: 10px 12px; gap:.4rem; }
+}
+
+@media (max-width: 420px){
+  :root{ --bar-h: 58px; }
+  .icon-btn{ min-width:40px; height:40px; border-radius: 10px; }
+  .composer__btn{ width:40px; height:40px; border-radius:10px; }
+  .composer__input{ min-height:40px; border-radius:10px; }
+  .swatch{ width:40px; height:40px; margin:6px; }
+}

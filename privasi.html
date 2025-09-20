@@ -1,0 +1,280 @@
+<!doctype html>
+<html lang="id" data-theme="auto">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>Kebijakan Privasi • Istana Coffee</title>
+
+    <!-- Icons & Fonts -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Saira:wght@500;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="assets/css/privasi.css" />
+</head>
+
+<body>
+
+    <!-- Header mini -->
+    <header class="pvbar">
+        <a href="#" class="brand" aria-label="Kembali ke beranda">
+            <i class="ri-robot-2-line" aria-hidden="true"></i>
+            <span>Istana Coffee</span>
+        </a>
+
+        <nav class="pvbar__actions" aria-label="Aksi cepat">
+            <a class="icon-btn" href="/" title="Beranda" aria-label="Beranda">
+                <i class="ri-home-5-line" aria-hidden="true"></i>
+            </a>
+
+            <!-- Theme -->
+            <div class="menu">
+                <button class="icon-btn" id="themeBtn" aria-haspopup="menu" aria-expanded="false"
+                    aria-controls="themeMenu" title="Pilih Tema">
+                    <i class="ri-contrast-2-line" aria-hidden="true"></i><span class="hide-sm">Tema</span>
+                </button>
+                <div class="menu__popover" id="themeMenu" role="menu" aria-label="Pilih tema">
+                    <button class="menu__item" data-theme="auto" role="menuitemradio" aria-checked="true">
+                        <i class="ri-magic-line" aria-hidden="true"></i><span>Otomatis</span>
+                    </button>
+                    <button class="menu__item" data-theme="light" role="menuitemradio" aria-checked="false">
+                        <i class="ri-sun-line" aria-hidden="true"></i><span>Terang</span>
+                    </button>
+                    <button class="menu__item" data-theme="dark" role="menuitemradio" aria-checked="false">
+                        <i class="ri-moon-line" aria-hidden="true"></i><span>Gelap</span>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Accent -->
+            <div class="menu">
+                <button class="icon-btn" id="colorBtn" aria-haspopup="menu" aria-expanded="false"
+                    aria-controls="colorMenu" title="Pilih Warna">
+                    <i class="ri-palette-line" aria-hidden="true"></i><span class="hide-sm">Warna</span>
+                </button>
+                <div class="menu__popover menu__swatches" id="colorMenu" role="menu" aria-label="Pilih warna brand">
+                    <button class="swatch" data-color="#16a34a" style="--c:#16a34a" title="Hijau" role="menuitemradio"
+                        aria-checked="true"></button>
+                    <button class="swatch" data-color="#0ea5e9" style="--c:#0ea5e9" title="Biru" role="menuitemradio"
+                        aria-checked="false"></button>
+                    <button class="swatch" data-color="#f59e0b" style="--c:#f59e0b" title="Kuning" role="menuitemradio"
+                        aria-checked="false"></button>
+                    <button class="swatch" data-color="#ef4444" style="--c:#ef4444" title="Merah" role="menuitemradio"
+                        aria-checked="false"></button>
+                    <button class="swatch" data-color="#8b5cf6" style="--c:#8b5cf6" title="Ungu" role="menuitemradio"
+                        aria-checked="false"></button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero -->
+    <section class="pv-hero">
+        <div class="pv-hero__inner">
+            <h1 class="pv-title">Kebijakan Privasi</h1>
+            <p class="pv-sub">Cara kami mengumpulkan, menggunakan, dan melindungi data Anda saat menggunakan layanan
+                Istana Coffee.</p>
+
+            <div class="pv-meta">
+                <span class="pill"><i class="ri-shield-check-line" aria-hidden="true"></i> Transparansi</span>
+                <span class="pill"><i class="ri-lock-2-line" aria-hidden="true"></i> Keamanan</span>
+                <span class="pill"><i class="ri-time-line"></i> Terakhir diperbarui: <span id="copyYear"></span></span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Content -->
+    <main class="pv" id="mainContent">
+        <!-- TOC (disembunyikan otomatis di mobile via CSS/JS) -->
+        <aside class="pv-toc" id="policyToc" aria-label="Daftar Isi">
+            <nav>
+                <a href="#ringkas">Ringkas</a>
+                <a href="#data">Data yang Kami Kumpulkan</a>
+                <a href="#pakai">Cara Kami Menggunakan Data</a>
+                <a href="#cookies">Cookie & Pelacakan</a>
+                <a href="#berbagi">Berbagi dengan Pihak Ketiga</a>
+                <a href="#keamanan">Keamanan & Retensi</a>
+                <a href="#hak">Hak Anda</a>
+                <a href="#anak">Pengguna Anak</a>
+                <a href="#perubahan">Perubahan Kebijakan</a>
+                <a href="#kontak">Kontak</a>
+            </nav>
+        </aside>
+
+        <article class="pv-article">
+            <section id="ringkas" class="pv-section">
+                <h2>Ringkas</h2>
+                <p>Kami menghargai privasi Anda. Kami mengumpulkan data seperlunya untuk menyediakan layanan (misalnya
+                    pemesanan, pengantaran, pemutar musik, dan asisten chat), menjaga keamanan, serta meningkatkan
+                    pengalaman Anda. Anda dapat meminta akses, koreksi, atau penghapusan data kapan saja.</p>
+                <div class="pv-callout">
+                    <i class="ri-information-line" aria-hidden="true"></i>
+                    <div><strong>Inti:</strong> kami tidak menjual data pribadi Anda. Data hanya digunakan untuk
+                        kepentingan layanan Istana Coffee dan mitra yang relevan (misalnya pembayaran/kurir).</div>
+                </div>
+            </section>
+
+            <section id="data" class="pv-section">
+                <h2>Data yang Kami Kumpulkan</h2>
+                <ul class="pv-list">
+                    <li><strong>Data kontak</strong> — nama, nomor telepon, alamat pengantaran (bila Anda memesan).</li>
+                    <li><strong>Data transaksi</strong> — item dipesan, jumlah, metode pembayaran, status pengiriman.
+                    </li>
+                    <li><strong>Data teknis</strong> — alamat IP, jenis peramban, perangkat, dan data log standar.</li>
+                    <li><strong>Interaksi fitur</strong> — chat asisten, preferensi tema/warna, antrean musik (lokal di
+                        perangkat).</li>
+                    <li><strong>Cookie</strong> — untuk sesi, preferensi, dan analitik agregat.</li>
+                </ul>
+            </section>
+
+            <section id="pakai" class="pv-section">
+                <h2>Cara Kami Menggunakan Data</h2>
+                <ul class="pv-list">
+                    <li>Memproses pesanan dan pengantaran.</li>
+                    <li>Menyediakan asisten chat (simulasi/offline atau terhubung API di masa depan).</li>
+                    <li>Meningkatkan performa situs, mencegah penyalahgunaan, dan dukungan pelanggan.</li>
+                    <li>Memenuhi kewajiban hukum dan akuntansi.</li>
+                </ul>
+            </section>
+
+            <section id="cookies" class="pv-section">
+                <h2>Cookie & Pelacakan</h2>
+                <p>Kami memakai cookie esensial (wajib agar situs berfungsi) dan cookie preferensi (misal tema/aksen di
+                    perangkat Anda). Analitik—jika diaktifkan—hanya dipakai secara agregat untuk memahami performa.</p>
+                <details class="pv-details">
+                    <summary><i class="ri-cookie-line" aria-hidden="true"></i> Jenis Cookie</summary>
+                    <ul class="pv-list">
+                        <li><strong>Esensial</strong>: sesi, keamanan, antrian UI.</li>
+                        <li><strong>Preferensi</strong>: tema (auto/terang/gelap), warna aksen.</li>
+                        <li><strong>Analitik</strong> (opsional): statistik anonim kunjungan.</li>
+                    </ul>
+                </details>
+            </section>
+
+            <section id="berbagi" class="pv-section">
+                <h2>Berbagi dengan Pihak Ketiga</h2>
+                <p>Kami dapat berbagi data terbatas dengan mitra tepercaya untuk memproses pembayaran, pengantaran, atau
+                    penyimpanan cloud sesuai kebutuhan layanan. Kami tidak menjual data pribadi Anda.</p>
+                <ul class="pv-list">
+                    <li><strong>Pembayaran</strong> — penyedia pembayaran menangani data kartu sesuai standar keamanan
+                        mereka.</li>
+                    <li><strong>Kurir</strong> — alamat dan kontak untuk pengantaran.</li>
+                    <li><strong>Analitik</strong> — data agregat tanpa identifikasi langsung.</li>
+                </ul>
+            </section>
+
+            <section id="keamanan" class="pv-section">
+                <h2>Keamanan & Retensi</h2>
+                <p>Kami menggunakan praktik keamanan yang wajar (transport terenkripsi, kontrol akses). Data disimpan
+                    selama perlu untuk tujuan yang dijelaskan atau sebagaimana diwajibkan hukum, lalu
+                    dihapus/dianonimkan.</p>
+            </section>
+
+            <section id="hak" class="pv-section">
+                <h2>Hak Anda</h2>
+                <ul class="pv-list">
+                    <li>Akses, koreksi, penghapusan data.</li>
+                    <li>Penarikan persetujuan untuk pemrosesan berbasis persetujuan.</li>
+                    <li>Keberatan atau pembatasan dalam kondisi tertentu.</li>
+                </ul>
+                <p>Untuk permintaan ini, silakan hubungi kami melalui <a
+                        href="mailto:halo@istanacoffee.id">halo@istanacoffee.id</a> atau WhatsApp resmi di halaman
+                    Kontak.</p>
+            </section>
+
+            <section id="anak" class="pv-section">
+                <h2>Pengguna Anak</h2>
+                <p>Layanan kami tidak ditujukan untuk anak di bawah usia yang mensyaratkan persetujuan orang tua menurut
+                    hukum setempat. Jika Anda meyakini kami menyimpan data anak secara tidak semestinya, hubungi kami
+                    untuk penghapusan.</p>
+            </section>
+
+            <section id="perubahan" class="pv-section">
+                <h2>Perubahan Kebijakan</h2>
+                <p>Kami dapat memperbarui kebijakan ini dari waktu ke waktu. Tanggal “terakhir diperbarui” akan diubah.
+                    Perubahan material akan diberi pemberitahuan yang sesuai.</p>
+            </section>
+
+            <section id="kontak" class="pv-section">
+                <h2>Kontak</h2>
+                <address class="pv-contact">
+                    <p><i class="ri-mail-line" aria-hidden="true"></i> Email: <a
+                            href="mailto:halo@istanacoffee.id">halo@istanacoffee.id</a></p>
+                    <p><i class="ri-map-pin-2-line" aria-hidden="true"></i> Alamat: Perumahan Jambak Asri, Lubuk Alung,
+                        Kab. Padang Pariaman</p>
+                    <p><i class="ri-whatsapp-line" aria-hidden="true"></i> WhatsApp: <a
+                            href="https://wa.me/6282389160273" target="_blank" rel="noopener">0823-8916-0273</a></p>
+                </address>
+            </section>
+
+            <div class="pv-actions">
+                <button class="btn" id="printBtn"><i class="ri-printer-line" aria-hidden="true"></i> Cetak / Simpan
+                    PDF</button>
+                <button class="btn ghost" id="toTopBtn"><i class="ri-arrow-up-line" aria-hidden="true"></i> Kembali ke
+                    atas</button>
+            </div>
+        </article>
+    </main>
+
+    <!-- Footer mini -->
+    <footer class="pv-foot">
+        <p>© <span id="copyYear"></span> Istana Coffee • Semua hak dilindungi.</p>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="assets/js/privasi.js" defer></script>
+
+    <!-- ===== POLICY FAB (Mobile only) ===== -->
+    <div class="policy-fab" id="policyFab" aria-label="Menu kebijakan" role="button" tabindex="0">
+        <i class="ri-shield-user-line" aria-hidden="true"></i>
+    </div>
+
+    <div class="policy-fab-menu" id="policyFabMenu" aria-hidden="true">
+        <div class="policy-fab-menu__overlay" data-close="true"></div>
+
+        <div class="policy-fab-menu__core" role="dialog" aria-modal="true" aria-label="Navigasi kebijakan">
+            <!-- tombol pusat -->
+            <button class="policy-fab-menu__center" id="fabCenterBtn" aria-label="Tutup menu">
+                <i class="ri-close-line" aria-hidden="true"></i>
+            </button>
+
+            <!-- item radial (searah jarum jam) -->
+            <button class="policy-fab-item" data-target="#ringkas" aria-label="Ringkas">
+                <img src="assets/img/icons/contract.png" alt="" aria-hidden="true">
+            </button>
+            <button class="policy-fab-item" data-target="#data" aria-label="Data yang kami kumpulkan">
+                <img src="assets/img/icons/database.png" alt="" aria-hidden="true">
+            </button>
+            <button class="policy-fab-item" data-target="#pakai" aria-label="Cara kami menggunakan data">
+                <img src="assets/img/icons/analytics.png" alt="" aria-hidden="true">
+            </button>
+            <button class="policy-fab-item" data-target="#cookies" aria-label="Cookie & pelacakan">
+                <img src="assets/img/icons/cookie.png" alt="" aria-hidden="true">
+            </button>
+            <button class="policy-fab-item" data-target="#berbagi" aria-label="Berbagi dengan pihak ketiga">
+                <img src="assets/img/icons/pihak.png" alt="" aria-hidden="true">
+            </button>
+            <button class="policy-fab-item" data-target="#keamanan" aria-label="Keamanan & retensi">
+                <img src="assets/img/icons/shield.png" alt="" aria-hidden="true">
+            </button>
+            <button class="policy-fab-item" data-target="#hak" aria-label="Hak Anda">
+                <img src="assets/img/icons/hak.png" alt="" aria-hidden="true">
+            </button>
+            <button class="policy-fab-item" data-target="#anak" aria-label="Pengguna Anak">
+                <img src="assets/img/icons/anak.png" alt="" aria-hidden="true">
+            </button>
+            <button class="policy-fab-item" data-target="#perubahan" aria-label="Perubahan kebijakan">
+                <img src="assets/img/icons/policy.png" alt="" aria-hidden="true">
+            </button>
+            <button class="policy-fab-item" data-target="#kontak" aria-label="Kontak">
+                <img src="assets/img/icons/contact.png" alt="" aria-hidden="true">
+            </button>
+        </div>
+    </div>
+</body>
+
+</html>

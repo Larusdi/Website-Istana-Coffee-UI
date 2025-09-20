@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Istana Coffee — Syarat & Ketentuan</title>
+
+    <!-- Remix Icon (untuk ikon X & toolbar) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css" />
+    <link rel="stylesheet" href="assets/css/ketentuan.css" />
+</head>
+
+<body>
+
+    <!-- ===== Top Bar ===== -->
+    <header class="pvbar">
+        <a class="brand" href="#"><i class="ri-robot-2-fill"></i> Istana Coffee</a>
+
+        <div class="pvbar__actions">
+            <a class="icon-btn" href="/" title="Beranda"><i class="ri-home-5-line"></i></a>
+
+            <!-- Tema -->
+            <div class="menu">
+                <button id="themeBtn" class="icon-btn" aria-expanded="false" aria-controls="themeMenu" title="Tema">
+                    <i class="ri-sun-line"></i>
+                </button>
+                <div id="themeMenu" class="menu__popover" role="menu" aria-label="Tema">
+                    <button class="menu__item" data-theme="auto" aria-checked="true">
+                        <i class="ri-magic-line"></i> Otomatis
+                    </button>
+                    <button class="menu__item" data-theme="light" aria-checked="false">
+                        <i class="ri-sun-fill"></i> Terang
+                    </button>
+                    <button class="menu__item" data-theme="dark" aria-checked="false">
+                        <i class="ri-moon-clear-fill"></i> Gelap
+                    </button>
+                </div>
+            </div>
+
+            <!-- Warna aksen -->
+            <div class="menu">
+                <button id="colorBtn" class="icon-btn" aria-expanded="false" aria-controls="colorMenu" title="Aksen">
+                    <i class="ri-palette-fill"></i>
+                </button>
+                <div id="colorMenu" class="menu__popover" role="menu" aria-label="Warna aksen">
+                    <div class="menu__swatches">
+                        <button class="swatch" data-color="#16a34a" style="--c:#16a34a" aria-checked="true"
+                            title="Hijau"></button>
+                        <button class="swatch" data-color="#ef4444" style="--c:#ef4444" title="Merah"></button>
+                        <button class="swatch" data-color="#0ea5e9" style="--c:#0ea5e9" title="Biru"></button>
+                        <button class="swatch" data-color="#a855f7" style="--c:#a855f7" title="Ungu"></button>
+                        <button class="swatch" data-color="#f59e0b" style="--c:#f59e0b" title="Kuning"></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="menu__backdrop"></div>
+
+    <!-- ===== Hero ===== -->
+    <section class="pv-hero">
+        <div class="pv-hero__inner">
+            <h1 class="pv-title">Syarat & Ketentuan</h1>
+            <p class="pv-sub">Ketentuan penggunaan layanan Istana Coffee. Dengan mengakses layanan, Anda setuju mematuhi
+                ketentuan ini.</p>
+            <div class="pv-meta">
+                <span class="pill"><i class="ri-shield-check-line"></i> Transparansi</span>
+                <span class="pill"><i class="ri-shield-keyhole-line"></i> Keamanan</span>
+                <span class="pill"><i class="ri-time-line"></i> Terakhir diperbarui: <span id="copyYear"></span></span>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== Layout ===== -->
+    <main class="pv">
+        <!-- TOC (desktop) -->
+        <aside class="pv-toc" id="policyToc" aria-label="Daftar Isi">
+            <nav>
+                <a href="#ringkas">Ringkas</a>
+                <a href="#definisi">Definisi</a>
+                <a href="#penggunaan">Ketentuan Penggunaan</a>
+                <a href="#akun">Akun Pengguna</a>
+                <a href="#konten">Konten & Hak Cipta</a>
+                <a href="#larangan">Larangan</a>
+                <a href="#transaksi">Transaksi & Pembayaran</a>
+                <a href="#pengiriman">Pengiriman</a>
+                <a href="#garansi">Garansi & Retur</a>
+                <a href="#pembatasan">Pembatasan Tanggung Jawab</a>
+                <a href="#hukum">Hukum yang Berlaku</a>
+                <a href="#perubahan">Perubahan Ketentuan</a>
+                <a href="#kontak">Kontak</a>
+            </nav>
+        </aside>
+
+        <!-- Article -->
+        <article class="pv-article">
+            <section id="ringkas" class="pv-section">
+                <h2>Ringkas</h2>
+                <p>Ketentuan ini mengatur penggunaan situs, aplikasi, dan layanan Istana Coffee. Dengan menggunakan
+                    layanan, Anda menyatakan setuju pada versi terbaru dari Syarat & Ketentuan ini.</p>
+            </section>
+
+            <section id="definisi" class="pv-section">
+                <h2>Definisi</h2>
+                <ul class="pv-list">
+                    <li><strong>Pengguna</strong>: setiap orang yang mengakses/ memakai layanan.</li>
+                    <li><strong>Layanan</strong>: situs, aplikasi, sistem pemesanan, pemutar musik, dan fitur terkait.
+                    </li>
+                </ul>
+            </section>
+
+            <section id="penggunaan" class="pv-section">
+                <h2>Ketentuan Penggunaan</h2>
+                <ul class="pv-list">
+                    <li>Layanan hanya untuk tujuan yang sah dan sesuai hukum.</li>
+                    <li>Anda setuju tidak menyalahgunakan atau mengganggu sistem.</li>
+                </ul>
+            </section>
+
+            <section id="akun" class="pv-section">
+                <h2>Akun Pengguna</h2>
+                <ul class="pv-list">
+                    <li>Anda bertanggung jawab atas kerahasiaan kredensial akun.</li>
+                    <li>Informasi yang diberikan harus akurat dan terkini.</li>
+                </ul>
+            </section>
+
+            <section id="konten" class="pv-section">
+                <h2>Konten & Hak Cipta</h2>
+                <p>Seluruh konten, merek, dan materi pada layanan dilindungi hukum. Dilarang menyalin tanpa izin
+                    tertulis.</p>
+            </section>
+
+            <section id="larangan" class="pv-section">
+                <h2>Larangan</h2>
+                <ul class="pv-list">
+                    <li>Aktivitas yang melanggar hukum, merusak, atau menipu.</li>
+                    <li>Upaya mengakses sistem tanpa izin (hacking, scraping berlebihan, dll.).</li>
+                </ul>
+            </section>
+
+            <section id="transaksi" class="pv-section">
+                <h2>Transaksi & Pembayaran</h2>
+                <p>Harga dapat berubah sewaktu-waktu. Transaksi dianggap sah setelah pembayaran terkonfirmasi.</p>
+            </section>
+
+            <section id="pengiriman" class="pv-section">
+                <h2>Pengiriman</h2>
+                <p>Waktu pengiriman bersifat perkiraan. Keterlambatan karena pihak ketiga berada di luar kendali kami.
+                </p>
+            </section>
+
+            <section id="garansi" class="pv-section">
+                <h2>Garansi & Retur</h2>
+                <p>Jika ada kendala kualitas, hubungi kami maksimal 1x24 jam sejak pesanan diterima.</p>
+            </section>
+
+            <section id="pembatasan" class="pv-section">
+                <h2>Pembatasan Tanggung Jawab</h2>
+                <p>Kami tidak bertanggung jawab atas kerugian tidak langsung/ konsekuensial akibat penggunaan layanan.
+                </p>
+            </section>
+
+            <section id="hukum" class="pv-section">
+                <h2>Hukum yang Berlaku</h2>
+                <p>Ketentuan ini tunduk pada hukum Republik Indonesia. Sengketa diselesaikan di pengadilan setempat.</p>
+            </section>
+
+            <section id="perubahan" class="pv-section">
+                <h2>Perubahan Ketentuan</h2>
+                <p>Kami dapat memperbarui ketentuan kapan saja. Tanggal pembaruan tercantum di bagian atas halaman.</p>
+            </section>
+
+            <section id="kontak" class="pv-section">
+                <h2>Kontak</h2>
+                <p>WhatsApp: 0823-8916-0273 • Email: support@istanacoffee.id</p>
+
+                <div class="pv-actions">
+                    <button id="printBtn" class="btn"><i class="ri-printer-fill"></i> Cetak</button>
+                    <button id="toTopBtn" class="btn ghost"><i class="ri-arrow-up-line"></i> Kembali ke atas</button>
+                </div>
+            </section>
+        </article>
+    </main>
+
+    <footer class="pv-foot">
+        © <span id="yearFoot"></span> Istana Coffee • Syarat & Ketentuan
+    </footer>
+
+    <!-- ===== Mobile FAB ===== -->
+    <button id="policyFab" class="policy-fab" aria-label="Navigasi S&K">
+        <i class="ri-file-text-line"></i>
+    </button>
+
+    <div class="policy-fab-menu" id="policyFabMenu" aria-hidden="true">
+        <div class="policy-fab-menu__overlay" data-close="true"></div>
+        <div class="policy-fab-menu__core" role="dialog" aria-modal="true" aria-label="Navigasi S&K">
+            <button class="policy-fab-menu__center" id="fabCenterBtn" aria-label="Tutup menu">
+                <i class="ri-close-line" aria-hidden="true"></i>
+            </button>
+
+            <!-- PNG icons (pakai asetmu sendiri) -->
+            <button class="policy-fab-item" data-target="#ringkas" aria-label="Ringkas"><img
+                    src="assets/img/icons/contract.png" alt=""></button>
+            <button class="policy-fab-item" data-target="#definisi" aria-label="Definisi"><img
+                    src="assets/img/icons/definition.png" alt=""></button>
+            <button class="policy-fab-item" data-target="#penggunaan" aria-label="Penggunaan"><img
+                    src="assets/img/icons/usage.png" alt=""></button>
+            <button class="policy-fab-item" data-target="#akun" aria-label="Akun"><img
+                    src="assets/img/icons/information.png" alt=""></button>
+            <button class="policy-fab-item" data-target="#konten" aria-label="Konten"><img
+                    src="assets/img/icons/copyright.png" alt=""></button>
+            <button class="policy-fab-item" data-target="#larangan" aria-label="Larangan"><img
+                    src="assets/img/icons/ban.png" alt=""></button>
+            <button class="policy-fab-item" data-target="#transaksi" aria-label="Transaksi"><img
+                    src="assets/img/icons/transaction.png" alt=""></button>
+            <button class="policy-fab-item" data-target="#pengiriman" aria-label="Pengiriman"><img
+                    src="assets/img/icons/delivery.png" alt=""></button>
+            <button class="policy-fab-item" data-target="#garansi" aria-label="Garansi"><img
+                    src="assets/img/icons/badge.png" alt=""></button>
+            <button class="policy-fab-item" data-target="#pembatasan" aria-label="Pembatasan"><img
+                    src="assets/img/icons/limit.png" alt=""></button>
+            <button class="policy-fab-item" data-target="#hukum" aria-label="Hukum"><img src="assets/img/icons/law.png"
+                    alt=""></button>
+            <button class="policy-fab-item" data-target="#perubahan" aria-label="Perubahan"><img
+                    src="assets/img/icons/policy.png" alt=""></button>
+            <button class="policy-fab-item" data-target="#kontak" aria-label="Kontak"><img
+                    src="assets/img/icons/contact.png" alt=""></button>
+        </div>
+    </div>
+
+    <script src="assets/js/ketentuan.js"></script>
+</body>
+
+</html>
