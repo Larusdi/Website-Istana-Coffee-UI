@@ -64,13 +64,13 @@
 
   /* ---------- Playlist ---------- */
   const tracks = [
-    { title:'TAPI TAHUKAH KAMU?', artist:'DYGTA ft KAMASEAN',             src:'assets/audio/lagu-1.mp3', cover:'assets/img/covers/tapi-tahukah-kamu.jpg' },
-    { title:'Sebatas Mimpi',       artist:'Angie Carvalho, Yovie Widianto', src:'assets/audio/lagu-2.mp3', cover:'assets/img/covers/sebatas-mimpi.jpg' },
-    { title:'Tanpa Cinta',         artist:'Tiara Andini, Yovie Widianto',   src:'assets/audio/lagu-4.mp3', cover:'assets/img/covers/tanpa-cinta.jpg' },
-    { title:'Tak Kan Terganti',    artist:'Shabrina Leanor, Yovie Widianto',src:'assets/audio/lagu-5.mp3', cover:'assets/img/covers/tak-kan-terganti.jpg' },
-    { title:'Bukan Cinta Biasa',   artist:'Afgan',                          src:'assets/audio/lagu-6.mp3', cover:'assets/img/covers/bukan-cinta-biasa.jpg' },
-    { title:'Terlalu Cinta',       artist:'Bagas Ran, Rossa',               src:'assets/audio/lagu-3.mp3', cover:'assets/img/covers/terlalu-cinta.jpg' },
-    { title:'Cinta Terakhirku',    artist:'Bagas Ran ft Anggis Devaki',     src:'assets/audio/lagu-7.mp3', cover:'assets/img/covers/cinta-terakhirku.jpg' },
+    { title:'Tapi Tahukah Kamu', artist:'Dygta ft Kamasean',             src:'https://dqyenorycxhffqjvcoqf.supabase.co/storage/v1/object/public/Music/Musik%20Istana-Coffee/lagu-1.mp3', cover:'assets/img/covers/tapi-tahukah-kamu.jpg' },
+    { title:'Sebatas Mimpi',       artist:'Angie Carvalho, Yovie Widianto', src:'https://dqyenorycxhffqjvcoqf.supabase.co/storage/v1/object/public/Music/Musik%20Istana-Coffee/lagu-2.mp3', cover:'assets/img/covers/sebatas-mimpi.jpg' },
+    { title:'Tanpa Cinta',         artist:'Tiara Andini, Yovie Widianto',   src:'https://dqyenorycxhffqjvcoqf.supabase.co/storage/v1/object/public/Music/Musik%20Istana-Coffee/lagu-4.mp3', cover:'assets/img/covers/tanpa-cinta.jpg' },
+    { title:'Tak Kan Terganti',    artist:'Shabrina Leanor, Yovie Widianto',src:'https://dqyenorycxhffqjvcoqf.supabase.co/storage/v1/object/public/Music/Musik%20Istana-Coffee/lagu-5.mp3', cover:'assets/img/covers/tak-kan-terganti.jpg' },
+    { title:'Bukan Cinta Biasa',   artist:'Afgan',                          src:'https://dqyenorycxhffqjvcoqf.supabase.co/storage/v1/object/public/Music/Musik%20Istana-Coffee/lagu-6.mp3', cover:'assets/img/covers/bukan-cinta-biasa.jpg' },
+    { title:'Terlalu Cinta',       artist:'Bagas Ran, Rossa',               src:'https://dqyenorycxhffqjvcoqf.supabase.co/storage/v1/object/public/Music/Musik%20Istana-Coffee/lagu-3.mp3', cover:'assets/img/covers/terlalu-cinta.jpg' },
+    { title:'Cinta Terakhirku',    artist:'Bagas Ran ft Anggis Devaki',     src:'https://dqyenorycxhffqjvcoqf.supabase.co/storage/v1/object/public/Music/Musik%20Istana-Coffee/lagu-7.mp3', cover:'assets/img/covers/cinta-terakhirku.jpg' },
   ];
 
   const buildQueue = () => {
