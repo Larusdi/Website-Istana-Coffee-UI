@@ -2256,12 +2256,12 @@ html[data-theme="light"] .nav__close{
     display:block; font-size:0; line-height:0; color:transparent;
     background:center / contain no-repeat;
     background-image:-webkit-image-set(
-      url("../img/logo-mobile.png") 1x,
-      url("../img/logo-mobile.png") 2x
+      url("https://dqyenorycxhffqjvcoqf.supabase.co/storage/v1/object/public/Gambar/ICON/Istana%20Coffee/logo-mobile.png") 1x,
+      url("https://dqyenorycxhffqjvcoqf.supabase.co/storage/v1/object/public/Gambar/ICON/Istana%20Coffee/logo-mobile.png") 2x
     );
     background-image:image-set(
-      url("../img/logo-mobile.png") 1x,
-      url("../img/logo-mobile.png") 2x
+      url("https://dqyenorycxhffqjvcoqf.supabase.co/storage/v1/object/public/Gambar/ICON/Istana%20Coffee/logo-mobile.png") 1x,
+      url("https://dqyenorycxhffqjvcoqf.supabase.co/storage/v1/object/public/Gambar/ICON/Istana%20Coffee/logo-mobile.png") 2x
     );
   }
 
