@@ -224,10 +224,10 @@
 @media (max-width: 480px){
   .music-queue-wrap{
     --queue-title-color: #ffffff;
-    --queue-title-img: url("../../assets/img/list.png");
-    --queue-title-img-2x: url("../../assets/img/list.png");
-    --queue-title-right-img: url("../../assets/img/song.png");
-    --queue-title-right-img-2x: url("../../assets/img/song.png");
+    --queue-title-img: url("https://dqyenorycxhffqjvcoqf.supabase.co/storage/v1/object/public/Gambar/ICON/Istana%20Coffee/list.png");
+    --queue-title-img-2x: url("https://dqyenorycxhffqjvcoqf.supabase.co/storage/v1/object/public/Gambar/ICON/Istana%20Coffee/list.png");
+    --queue-title-right-img: url("https://dqyenorycxhffqjvcoqf.supabase.co/storage/v1/object/public/Gambar/ICON/Istana%20Coffee/song.png");
+    --queue-title-right-img-2x: url("https://dqyenorycxhffqjvcoqf.supabase.co/storage/v1/object/public/Gambar/ICON/Istana%20Coffee/song.png");
     --queue-title-icon-color: #ffffff;
     --song-speed: 3.8s;
     --song-distance: 4px;
